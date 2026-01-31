@@ -1,0 +1,29 @@
+{
+  "name": "scala",
+  "argv": [
+    "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java",
+    "-jar",
+    "/opt/homebrew/Cellar/scala/3.8.1/libexec/libexec/scala-cli.jar",
+    "--cli-default-scala-version",
+    "3.8.1",
+    "--repository",
+    "file:///opt/homebrew/Cellar/scala/3.8.1/libexec/maven2",
+    "--prog-name",
+    "scala",
+    "--skip-cli-updates",
+    "bsp",
+    "--json-options",
+    "/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.scala-build/ide-envs.json",
+    "/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)"
+  ],
+  "version": "1.11.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
