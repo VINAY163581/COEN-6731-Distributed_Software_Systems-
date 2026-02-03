@@ -213,7 +213,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home",
+                "home": "/opt/homebrew/Cellar/openjdk@11/11.0.30/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project"
                 ]
@@ -222,7 +222,7 @@
                 
             ],
             "runtimeConfig": {
-                "home": "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home",
+                "home": "/opt/homebrew/Cellar/openjdk@11/11.0.30/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project"
                 ]

@@ -2684,3 +2684,416 @@ Jan 31, 2026 12:00:24 A.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint no
 INFO: Unsupported notification method: $/setTrace
 Jan 31, 2026 12:00:24 A.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.01.31 02:04:47 INFO  Shutting down server
+2026.01.31 02:04:47 INFO  Memory monitor stopped
+2026.01.31 02:04:47 INFO  shutting down Metals
+2026.01.31 02:04:47 INFO  Shut down connection with build server.
+2026.01.31 02:04:47 INFO  Shut down connection with build server.
+2026.01.31 02:04:47 INFO  Exiting server
+2026.01.31 14:22:44 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)' for client Visual Studio Code 1.108.2.
+2026.01.31 14:22:44 INFO  Memory monitor started
+2026.01.31 14:22:45 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.31 14:22:45 INFO  Attempting to connect to the build server...
+2026.01.31 14:22:45 INFO  No running Bloop server found, starting one.
+2026.01.31 14:22:45 INFO  Starting compilation server
+2026.01.31 14:22:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.01.31 14:22:46 INFO  Attempting to connect to the build server...
+2026.01.31 14:22:46 INFO  Found a Bloop server running
+2026.01.31 14:22:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.01.31 14:22:46 INFO  time: Connected to build server in 1.66s
+2026.01.31 14:22:46 INFO  Connected to Build server: Bloop v2.0.18
+2026.01.31 14:22:47 INFO  time: Imported build in 0.11s
+2026.01.31 14:22:49 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.31 14:22:50 INFO  time: indexed workspace in 3.04s
+Jan 31, 2026 2:22:54 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.31 14:44:25 INFO  compiling coen-6731-distributed_software_systems- (8 scala sources)
+2026.01.31 14:44:25 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.18. Compiling...
+2026.01.31 14:44:29 INFO  Compilation completed in 4.027s.
+2026.01.31 14:44:31 INFO  time: compiled coen-6731-distributed_software_systems- in 5.79s
+2026.01.31 14:49:15 INFO  Shutting down server
+2026.01.31 14:49:15 INFO  Memory monitor stopped
+2026.01.31 14:49:15 INFO  shutting down Metals
+2026.01.31 14:49:15 INFO  Shut down connection with build server.
+2026.01.31 14:49:15 INFO  Shut down connection with build server.
+2026.01.31 14:49:15 INFO  Exiting server
+2026.02.02 14:36:48 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)' for client Visual Studio Code 1.108.2.
+2026.02.02 14:36:48 INFO  Memory monitor started
+2026.02.02 14:36:48 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.02 14:36:48 INFO  Attempting to connect to the build server...
+2026.02.02 14:36:48 INFO  No running Bloop server found, starting one.
+2026.02.02 14:36:49 INFO  Starting compilation server
+2026.02.02 14:36:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.02 14:36:50 INFO  Attempting to connect to the build server...
+2026.02.02 14:36:50 INFO  Found a Bloop server running
+2026.02.02 14:36:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.02 14:36:50 INFO  time: Connected to build server in 1.92s
+2026.02.02 14:36:50 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.02 14:36:50 INFO  time: Imported build in 0.14s
+2026.02.02 14:36:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.02 14:36:54 INFO  time: indexed workspace in 3.6s
+2026.02.02 14:38:43 INFO  time: code lens generation in 1.21s
+2026.02.02 14:38:43 INFO  time: code lens generation in 1.31s
+2026.02.02 15:35:46 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.02 15:35:46 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.02 15:35:46 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/metals.sbt
+2026.02.02 15:35:46 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.02 15:35:46 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+Feb 02, 2026 3:35:56 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.02 15:36:26 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:36:27 INFO  time: compiled coen-6731-distributed_software_systems- in 1.5s
+2026.02.02 15:38:46 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.02 15:40:54 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:40:54 INFO  time: compiled coen-6731-distributed_software_systems- in 0.74s
+2026.02.02 15:42:07 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:42:07 INFO  time: compiled coen-6731-distributed_software_systems- in 0.56s
+2026.02.02 15:42:11 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:42:11 INFO  time: compiled coen-6731-distributed_software_systems- in 0.35s
+2026.02.02 15:42:32 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:42:32 INFO  time: compiled coen-6731-distributed_software_systems- in 0.56s
+2026.02.02 15:42:53 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:42:53 INFO  time: compiled coen-6731-distributed_software_systems- in 0.43s
+2026.02.02 15:43:12 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:43:12 INFO  time: compiled coen-6731-distributed_software_systems- in 0.43s
+2026.02.02 15:43:37 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:43:37 INFO  time: compiled coen-6731-distributed_software_systems- in 0.13s
+2026.02.02 15:45:15 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 15:45:15 INFO  time: compiled coen-6731-distributed_software_systems- in 0.12s
+2026.02.02 15:47:06 INFO  compiling coen-6731-distributed_software_systems- (3 scala sources)
+2026.02.02 15:47:06 INFO  time: compiled coen-6731-distributed_software_systems- in 0.52s
+2026.02.02 15:50:23 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:50:23 INFO  time: compiled coen-6731-distributed_software_systems- in 0.43s
+2026.02.02 15:50:27 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 15:50:27 INFO  time: compiled coen-6731-distributed_software_systems- in 0.39s
+Feb 02, 2026 3:50:42 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 02, 2026 4:00:55 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731%28Distributed_Software_Systems%29/target/scala-2.12/classes/com/analytics/anomaly/AnomalyDetection.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Feb 02, 2026 4:01:05 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731%28Distributed_Software_Systems%29/target/scala-2.12/classes/com/analytics/anomaly/AnomalyDetection.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Feb 02, 2026 4:01:05 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731%28Distributed_Software_Systems%29/target/scala-2.12/classes/com/analytics/anomaly/AnomalyDetection%24.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Feb 02, 2026 4:01:18 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731%28Distributed_Software_Systems%29/target/scala-2.12/classes/com/analytics/anomaly/AnomalyDetection.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+2026.02.02 16:09:41 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:09:41 INFO  time: compiled coen-6731-distributed_software_systems- in 0.18s
+2026.02.02 16:11:21 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:11:21 INFO  time: compiled coen-6731-distributed_software_systems- in 0.14s
+2026.02.02 16:12:17 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala:9:1: stale bloop error: object SparkSessionBuilder is not a member of package com.analytics.session
+import com.analytics.session.SparkSessionBuilder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.02.02 16:12:17 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala:31:7: stale bloop error: not found: value lookbackHours
+      lookbackHours = 24
+      ^^^^^^^^^^^^^
+2026.02.02 16:12:18 INFO  Created report: Optional[file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala]
+2026.02.02 16:12:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/.reports/metals-full/2026-02-02/r_empty-definition_(coen-6731-distributed_5fsoftware_5fsystems-)_16-12-18-340.md")
+2026.02.02 16:13:14 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:13:14 INFO  time: compiled coen-6731-distributed_software_systems- in 0.17s
+2026.02.02 16:13:34 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:13:34 INFO  time: compiled coen-6731-distributed_software_systems- in 0.12s
+2026.02.02 16:13:47 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:13:47 INFO  time: compiled coen-6731-distributed_software_systems- in 0.11s
+2026.02.02 16:14:00 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:14:00 INFO  time: compiled coen-6731-distributed_software_systems- in 0.11s
+2026.02.02 16:14:18 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:14:18 INFO  time: compiled coen-6731-distributed_software_systems- in 0.13s
+2026.02.02 16:14:40 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:14:40 INFO  time: compiled coen-6731-distributed_software_systems- in 0.71s
+2026.02.02 16:19:46 WARN  Could not find 'SparkSessionBuilder' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.02.02 16:19:46 INFO  Created report: Optional[file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala]
+2026.02.02 16:19:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/.reports/metals-full/2026-02-02/r_empty-definition_(coen-6731-distributed_5fsoftware_5fsystems-)_16-19-46-708.md")
+2026.02.02 16:19:46 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:19:46 INFO  time: compiled coen-6731-distributed_software_systems- in 0.47s
+2026.02.02 16:28:24 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:28:24 INFO  time: compiled coen-6731-distributed_software_systems- in 0.14s
+2026.02.02 16:29:44 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:29:44 INFO  time: compiled coen-6731-distributed_software_systems- in 0.11s
+2026.02.02 16:29:55 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/attribution/Attribution.scala:25:54: stale bloop error: value $ is not a member of StringContext
+    val w = Window.partitionBy("o.order_id").orderBy($"e.timestamp".desc)
+                                                     ^^^^^^^^^^^^^^
+2026.02.02 16:29:55 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/attribution/Attribution.scala:29:15: stale bloop error: value $ is not a member of StringContext
+      .filter($"rank" === 1)
+              ^^^^^^^
+2026.02.02 16:29:55 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/attribution/Attribution.scala:31:9: stale bloop error: value $ is not a member of StringContext
+        $"o.order_id",
+        ^^^^^^^^^^^^^
+2026.02.02 16:29:55 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/attribution/Attribution.scala:32:9: stale bloop error: value $ is not a member of StringContext
+        $"o.user_id",
+        ^^^^^^^^^^^^
+2026.02.02 16:29:55 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/attribution/Attribution.scala:33:9: stale bloop error: value $ is not a member of StringContext
+        $"e.referrer",
+        ^^^^^^^^^^^^^
+2026.02.02 16:29:55 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/attribution/Attribution.scala:34:9: stale bloop error: value $ is not a member of StringContext
+        $"o.total_amount"
+        ^^^^^^^^^^^^^^^^^
+2026.02.02 16:30:01 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:30:01 INFO  time: compiled coen-6731-distributed_software_systems- in 0.43s
+2026.02.02 16:32:02 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:32:02 INFO  time: compiled coen-6731-distributed_software_systems- in 0.44s
+2026.02.02 16:32:02 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:32:02 INFO  time: compiled coen-6731-distributed_software_systems- in 73ms
+2026.02.02 16:32:36 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:32:36 INFO  time: compiled coen-6731-distributed_software_systems- in 0.12s
+2026.02.02 16:32:46 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:32:46 INFO  time: compiled coen-6731-distributed_software_systems- in 0.11s
+2026.02.02 16:33:25 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:33:25 INFO  time: compiled coen-6731-distributed_software_systems- in 0.13s
+2026.02.02 16:33:34 INFO  compiling coen-6731-distributed_software_systems- (2 scala sources)
+2026.02.02 16:33:34 INFO  time: compiled coen-6731-distributed_software_systems- in 0.53s
+2026.02.02 16:33:38 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:33:38 INFO  time: compiled coen-6731-distributed_software_systems- in 0.1s
+2026.02.02 16:33:38 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala
+2026.02.02 16:34:03 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala
+2026.02.02 16:34:57 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala
+2026.02.02 16:34:58 INFO  file:///Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala:45:34: stale bloop error: not enough arguments for method conversionRate: (events: org.apache.spark.sql.DataFrame, orders: org.apache.spark.sql.DataFrame)Double.
+Unspecified value parameter orders.
+    println(s"Conversion Rate: ${Metrics.conversionRate(events)}")
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.02.02 16:34:58 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala
+2026.02.02 16:34:59 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/MainApp.scala
+2026.02.02 16:34:59 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:34:59 INFO  time: compiled coen-6731-distributed_software_systems- in 0.42s
+2026.02.02 16:40:01 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.02.02 16:40:02 INFO  [info] welcome to sbt 1.12.1 (Oracle Corporation Java 23.0.1)
+2026.02.02 16:40:02 INFO  [info] loading settings for project coen-6731-distributed_software_systems--build-build from metals.sbt...
+2026.02.02 16:40:02 INFO  [info] loading project definition from /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/project
+2026.02.02 16:40:02 INFO  [info] loading settings for project coen-6731-distributed_software_systems--build from metals.sbt...
+2026.02.02 16:40:03 INFO  [info] loading project definition from /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project
+2026.02.02 16:40:03 INFO  [success] Generated .bloop/coen-6731-distributed_software_systems--build.json
+2026.02.02 16:40:03 INFO  [success] Total time: 1 s, completed Feb 2, 2026, 4:40:04 p.m.
+2026.02.02 16:40:05 INFO  [info] loading settings for project coen-6731-distributed_software_systems- from build.sbt...
+2026.02.02 16:40:05 INFO  [info] set current project to spark-ecommerce-analytics (in build file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/)
+2026.02.02 16:40:16 INFO  [success] Generated .bloop/coen-6731-distributed_software_systems-.json
+2026.02.02 16:40:16 INFO  [success] Generated .bloop/coen-6731-distributed_software_systems--test.json
+2026.02.02 16:40:16 INFO  [success] Total time: 11 s, completed Feb 2, 2026, 4:40:16 p.m.
+2026.02.02 16:40:16 INFO  time: ran 'sbt bloopInstall' in 14s
+2026.02.02 16:40:16 INFO  Disconnecting from Bloop session...
+2026.02.02 16:40:16 INFO  Shut down connection with build server.
+2026.02.02 16:40:16 INFO  Shut down connection with build server.
+2026.02.02 16:40:16 INFO  Attempting to connect to the build server...
+2026.02.02 16:40:16 INFO  Found a Bloop server running
+2026.02.02 16:40:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.02 16:40:16 INFO  Attempting to connect to the build server...
+2026.02.02 16:40:16 INFO  Found a Bloop server running
+2026.02.02 16:40:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.02 16:40:16 INFO  time: Connected to build server in 0.24s
+2026.02.02 16:40:16 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.02 16:40:22 INFO  time: indexed workspace in 5.95s
+2026.02.02 16:40:22 INFO  compiling coen-6731-distributed_software_systems- (8 scala sources)
+2026.02.02 16:40:22 INFO  time: compiled coen-6731-distributed_software_systems- in 0.8s
+2026.02.02 16:49:20 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:49:20 INFO  time: compiled coen-6731-distributed_software_systems- in 0.14s
+2026.02.02 16:49:21 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/util/Metrics.scala
+2026.02.02 16:49:30 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/util/Metrics.scala
+2026.02.02 16:49:32 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:49:32 WARN  Could not load snapshot text for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/src/main/scala/com/analytics/util/Metrics.scala
+2026.02.02 16:49:32 INFO  time: compiled coen-6731-distributed_software_systems- in 0.46s
+2026.02.02 16:56:13 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.02 16:56:13 INFO  time: compiled coen-6731-distributed_software_systems- in 0.48s
+2026.02.02 17:06:59 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.02.02 17:07:00 INFO  [info] welcome to sbt 1.12.1 (Oracle Corporation Java 23.0.1)
+2026.02.02 17:07:00 INFO  [info] loading settings for project coen-6731-distributed_software_systems--build-build from metals.sbt...
+2026.02.02 17:07:00 INFO  [info] loading project definition from /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/project
+2026.02.02 17:07:00 INFO  [info] loading settings for project coen-6731-distributed_software_systems--build from metals.sbt...
+2026.02.02 17:07:01 INFO  [info] loading project definition from /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project
+2026.02.02 17:07:01 INFO  [success] Generated .bloop/coen-6731-distributed_software_systems--build.json
+2026.02.02 17:07:01 INFO  [success] Total time: 1 s, completed Feb 2, 2026, 5:07:02 p.m.
+2026.02.02 17:07:03 INFO  [info] loading settings for project coen-6731-distributed_software_systems- from build.sbt...
+2026.02.02 17:07:03 INFO  [info] set current project to spark-ecommerce-analytics (in build file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/)
+2026.02.02 17:07:16 INFO  [success] Generated .bloop/coen-6731-distributed_software_systems--test.json
+2026.02.02 17:07:16 INFO  [success] Generated .bloop/coen-6731-distributed_software_systems-.json
+2026.02.02 17:07:16 INFO  [success] Total time: 13 s, completed Feb 2, 2026, 5:07:16 p.m.
+2026.02.02 17:07:16 INFO  time: ran 'sbt bloopInstall' in 17s
+2026.02.02 17:07:16 INFO  Disconnecting from Bloop session...
+2026.02.02 17:07:16 INFO  Shut down connection with build server.
+2026.02.02 17:07:16 INFO  Shut down connection with build server.
+2026.02.02 17:07:16 INFO  Attempting to connect to the build server...
+2026.02.02 17:07:16 INFO  Found a Bloop server running
+2026.02.02 17:07:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.02 17:07:16 INFO  Attempting to connect to the build server...
+2026.02.02 17:07:16 INFO  Found a Bloop server running
+2026.02.02 17:07:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.02 17:07:16 INFO  time: Connected to build server in 0.24s
+2026.02.02 17:07:16 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.02 17:07:18 WARN  High memory usage detected: 92% (1894 MB / 2048 MB)
+2026.02.02 17:07:23 INFO  time: indexed workspace in 6.96s
+2026.02.02 17:07:24 INFO  compiling coen-6731-distributed_software_systems- (8 scala sources)
+2026.02.02 17:07:24 INFO  time: compiled coen-6731-distributed_software_systems- in 0.76s
+2026.02.02 19:34:35 INFO  Shutting down server
+2026.02.02 19:34:35 INFO  Memory monitor stopped
+2026.02.02 19:34:35 INFO  shutting down Metals
+2026.02.02 19:34:35 INFO  Shut down connection with build server.
+2026.02.02 19:34:35 INFO  Shut down connection with build server.
+2026.02.02 19:34:35 INFO  Exiting server
+2026.02.03 12:44:29 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)' for client Visual Studio Code 1.108.2.
+2026.02.03 12:44:29 INFO  Memory monitor started
+2026.02.03 12:44:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 12:44:30 INFO  Attempting to connect to the build server...
+2026.02.03 12:44:30 INFO  No running Bloop server found, starting one.
+2026.02.03 12:44:30 INFO  Starting compilation server
+2026.02.03 12:44:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 12:44:31 INFO  Attempting to connect to the build server...
+2026.02.03 12:44:31 INFO  Found a Bloop server running
+2026.02.03 12:44:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 12:44:31 INFO  time: Connected to build server in 1.78s
+2026.02.03 12:44:31 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.03 12:44:32 INFO  time: Imported build in 0.14s
+2026.02.03 12:44:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 12:44:35 INFO  time: indexed workspace in 3.58s
+Feb 03, 2026 12:44:55 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731%28Distributed_Software_Systems%29/target/scala-2.12/classes/com/analytics/anomaly/AnomalyDetection.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+2026.02.03 12:46:47 INFO  compiling coen-6731-distributed_software_systems- (4 scala sources)
+2026.02.03 12:46:49 INFO  time: compiled coen-6731-distributed_software_systems- in 2.04s
+Feb 03, 2026 12:46:55 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
