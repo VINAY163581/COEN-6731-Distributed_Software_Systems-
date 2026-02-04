@@ -27,12 +27,26 @@ jobs:
       - name: Setup gcloud
         uses: google-github-actions/setup-gcloud@v2
 
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "11"
+
+      - name: Setup sbt
+        uses: sbt/setup-sbt@v1
+
       - name: Set GCP project
         run: gcloud config set project project-34c13448-074a-417a-b64
 
-      
-      - name: Verify auth
-        run: gcloud auth list
+      - name: Build fat jar (sbt assembly)
+        run: sbt clean assembly
+
+      - name: Upload jar to GCS
+        run: |
+          JAR_PATH=$(ls target/scala-*/spark-ecommerce-analytics-assembly-*.jar | head -n 1)
+          echo "Uploading jar: $JAR_PATH"
+          gcloud storage cp "$JAR_PATH" gs://vinay-ecommerce-dataproc-6731/jars/spark-ecommerce-analytics-assembly-1.0.jar
 
       - name: Upload data to GCS
         run: |
@@ -44,5 +58,5 @@ jobs:
             --project=project-34c13448-074a-417a-b64 \
             --region=northamerica-northeast1 \
             --cluster=ecommerce-cluster \
-            --class=your.main.Class \
+            --class=com.analytics.MainApp \
             --jars=gs://vinay-ecommerce-dataproc-6731/jars/spark-ecommerce-analytics-assembly-1.0.jar
