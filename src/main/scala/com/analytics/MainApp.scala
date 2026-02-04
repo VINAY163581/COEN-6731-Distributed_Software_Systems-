@@ -14,17 +14,24 @@ object MainApp {
 
     val spark = SparkSession.builder()
       .appName("Ecommerce Analytics")
-      .master("local[*]")
       .getOrCreate()
 
     spark.sparkContext.setLogLevel("WARN")
 
-    
-    val events  = DataLoader.loadEvents(spark, "data/events.csv")
-    val orders  = DataLoader.loadOrders(spark, "data/orders.csv")
-    val catalog = DataLoader.loadCatalog(spark, "data/catalog.csv")
+    // Use DATA_PATH if provided (recommended in Dataproc submit),
+    // otherwise fall back to your real bucket path.
+    val basePath = sys.env.getOrElse("DATA_PATH", "gs://vinay-ecommerce-dataproc-6731/data")
 
-   
+    println(s"Using DATA_PATH = $basePath")
+    println(s"Loading files:")
+    println(s"  events  -> $basePath/events.csv")
+    println(s"  orders  -> $basePath/orders.csv")
+    println(s"  catalog -> $basePath/catalog.csv")
+
+    val events  = DataLoader.loadEvents(spark, s"$basePath/events.csv")
+    val orders  = DataLoader.loadOrders(spark, s"$basePath/orders.csv")
+    val catalog = DataLoader.loadCatalog(spark, s"$basePath/catalog.csv")
+
     val sessions = Sessionization.buildSessions(events)
 
     val funnel = FunnelAnalysis.computeFunnel(sessions, catalog)
@@ -38,20 +45,18 @@ object MainApp {
 
     val anomalies = AnomalyDetection.detectAnomalies(funnel)
 
-   
     println("========= METRICS =========")
     println(s"Total Events: ${Metrics.totalEvents(events)}")
     println(s"Total Orders: ${Metrics.totalOrders(orders)}")
     println(s"Total Revenue: ${Metrics.totalRevenue(orders)}")
     println(s"Average Order Value: ${Metrics.averageOrderValue(orders)}")
-    println(s"Conversion Rate: ${Metrics.conversionRate(events, orders)}") // ✅ FIXED
+    println(s"Conversion Rate: ${Metrics.conversionRate(events, orders)}")
 
     println("\nEvents by Type:")
     Metrics.eventsByType(events).show(false)
 
     println("\nTop Selling Products:")
     Metrics.topSellingProducts(orders, catalog).show(false)
-
 
     println("\n========= FUNNEL =========")
     funnel.show(false)
