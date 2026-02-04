@@ -1,0 +1,39 @@
+name: Deploy to Dataproc
+
+on:
+  push:
+    branches:
+      - main  
+
+permissions:
+  id-token: write  
+  contents: read   
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+    
+      - id: auth
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: 'projects/150195794927/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
+          service_account: 'github-ci@project-34c13448-074a-417a-b64.iam.gserviceaccount.com'
+
+      - name: Set GCP project
+        run: gcloud config set project project-34c13448-074a-417a-b64
+
+      - name: Upload data to GCS (if needed)
+        run: |
+          gsutil cp data/*.csv gs://vinay-ecommerce-dataproc-6731/data/
+
+      - name: Submit Spark job to Dataproc
+        run: |
+          gcloud dataproc jobs submit spark \
+            --cluster=ecommerce-cluster \
+            --region=northamerica-northeast1 \
+            --class=your.main.Class \
+            --jars=gs://vinay-ecommerce-dataproc-6731/jars/spark-ecommerce-analytics-assembly-1.0.jar
